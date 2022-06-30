@@ -1,8 +1,8 @@
-document.getElementsByClassName("githubs").addEventListener("click", myFunction);
+document.getElementById("button1").onclick = () =>{
+   alert("Thanks for visiting!")
+}
 
-function myFunction() {
-   alert("testing")
-  }
-
-
+document.getElementById("button2").onclick = () =>{
+   alert("Thanks for visiting!")
+}
 
